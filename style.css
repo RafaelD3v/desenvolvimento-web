@@ -7,18 +7,21 @@
 
 html {
     font-size: 93.75%; /* 15px */
+    font-family: sans-serif;
 } 
 
 /* HEADER */
 header {
-
-    
-    padding: 0.5rem 0 1.25rem;
+    width: 100%;
+    height: 250px;
 }
 
 #header-title {
     background-color: #002969;
+
+    padding: 0.5rem 0 1.25rem;
 }
+
 
 h1 {
     margin-right: 2rem;
@@ -28,7 +31,30 @@ h1 {
     color: #f8f9fa;
 }
 
+
+#header-menu {
+    margin-top: 0;
+    height: 100px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#unifor-logo-title {
+    width: 250px;
+    height: 250px;
+}
+
 /* FOOTER */
+table  tbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .contact-icons {
-    
+    width: 30px;
+    height: 30px;
 }
