@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 93.75%; /* 15px */
+    font-size: 18px;
     font-family: sans-serif;
 } 
 
@@ -31,10 +31,15 @@ h1 {
     color: #f8f9fa;
 }
 
-
+/* BODY */
 #header-menu {
     margin-top: 0;
     height: 100px;
+}
+
+#unifor-logo-footer {
+    width: 250px;
+    height: 250px;
 }
 
 #menu{
@@ -43,18 +48,70 @@ h1 {
     justify-content: space-between;
 }
 
-#unifor-logo-title {
+#unifor-logo-header {
     width: 250px;
     height: 250px;
 }
 
 /* FOOTER */
-table  tbody{
+footer {
+    background-color: #002969;
+
+    color: #fff;
+}
+
+#footer-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+#footer-menu-social-media {
+    margin-left: 5rem;
+}
+
+#unifor-logo-header {
+    width: 250px;
+    height: 250px;
+}
+
+table  tbody{
+    display: block;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .contact-icons {
     width: 30px;
     height: 30px;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 0.8rem;
+}
+
+.social-media-icons {
+    width: 20px;
+    height: 20px;
+}
+
+#unifor-logo-footer {
+    margin-right: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#unifor-logo {
+    width: 250px;
+    height: 250px;
 }
