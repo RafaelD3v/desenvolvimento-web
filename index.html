@@ -14,14 +14,14 @@
         <div id="header-title">
             <h1>Venha estudar no Campus da Unifor!</h1>    
         </div>
-        <div id="header-menu">
-            <div id="menu">
+        <div id="navbar">
+            <nav id="navbar-menu">
                 <img id="unifor-logo-header" src="./assets/unifor-logo-horizontal.svg" alt="logo unifor">
-                <ul id="header-list">
-                    <li class="header-list-li"><a href="https://www.unifor.br/">HOME</a></li>
-                    <li class="header-list-li"><a href="https://www.unifor.br/">CADASTRAR CONTATO</a></li>
-                </ul>               
-            </div>
+                <div id="nav-menu-links">
+                    <a href="https://www.unifor.br/">HOME</a>
+                    <a href="https://www.unifor.br/">CADASTRAR CONTATO</a>
+                </div>               
+            </nav>
         </div>
     </header>
 
@@ -61,32 +61,28 @@
                 </div>
             </div>
 
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
-                        <th><h5>Fale Conosco</h5></th>
+                        <th scope="col"><h5>Fale Conosco</h5></th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td class="contact-info">
-                            <p>Central de Atendimento: (85) 3477-3000 (Telefone Fixo) | (85) 99246-6625 (WhatsApp)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="contact-info">
-                            <p>Email: callcenter@unifor.br</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="contact-info">
-                            <p>Endereço: Av. Washington Soares, 1321 - Edson Queiroz - CEP 60811-905 - Fortaleza-CE Brasil</p>
-                        </td>
-                    </tr>
+                  <tr>
+                    <td class="contact-info-description" scope="row">Telefone Fixo: </td>
+                    <td class="contact-info-content">(85) 3477 - 3000</td>
+                  </tr>
+                  <tr>
+                    <td class="contact-info-description" scope="row">WhatsApp: </td>
+                    <td class="contact-info-content">(85) 99246 - 6625</td>
+                  </tr>
+                  <tr>
+                    <td class="contact-info-description" scope="row">Email: </td>
+                    <td class="contact-info-content">callcenter@unifor.br</td>
+                  </tr>
                 </tbody>
-            </table>
-
+              </table>
 
             <div id="unifor-logo-footer">
                 <img id="unifor-logo" src="./assets/unifor-logo-horizontal-negative.svg" alt="logo unifor">

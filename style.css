@@ -42,7 +42,7 @@ h1 {
     color: var(--light);
 }
 
-#header-menu {
+#navbar {
     position: absolute;
     width: 100%;
     min-height: 4rem;
@@ -50,7 +50,7 @@ h1 {
     top: 0;
 }
 
-#menu{
+#navbar-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,18 +103,16 @@ footer {
     height: 250px;
 }
 
-table  tbody{
-    display: block;
-}
-
 h5 {
     font-size: 1rem;
 }
 
-.contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.contact-info-description {
+    text-align: left;
+}
+
+.contact-info-content {
+    text-align: right;
 }
 
 .contact-icons {
