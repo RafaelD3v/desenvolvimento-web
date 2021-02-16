@@ -151,3 +151,21 @@ h5 {
     width: 250px;
     height: 250px;
 }
+p {
+    text-align: justify;
+}
+
+#list li{
+    font-weight: bold;
+    color: #002969;
+}
+#mapa-campos {
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+}
