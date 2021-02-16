@@ -50,7 +50,7 @@ header {
 }
 
 #unifor-logo-header {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .navbar-links {
@@ -113,19 +113,6 @@ h5 {
     font-size: 1rem;
 }
 
-.contact-info-description {
-    text-align: left;
-}
-
-.contact-info-content {
-    text-align: right;
-}
-
-.contact-icons {
-    width: 30px;
-    height: 30px;
-}
-
 #social-media {
     display: flex;
     align-items: center;
@@ -137,6 +124,14 @@ h5 {
 .social-media-icons {
     width: 20px;
     height: 20px;
+}
+
+.contact-info-description {
+    text-align: left;
+}
+
+.contact-info-content {
+    text-align: right;
 }
 
 #unifor-logo-footer {
