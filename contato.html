@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/contato.css">
 </head>
 <body>
+    <header>
+        <div id="header-background"></div>
+        <div id="navbar">
+            <nav id="navbar-menu">
+                <img id="unifor-logo-header" src="./assets/unifor-logo-horizontal.svg" alt="logo unifor">
+                <div id="nav-menu-links">
+                    <a class="navbar-links" href="https://www.unifor.br/">Site principal</a>
+                    <a class="navbar-links" href="./index.html">Campus Unifor</a>
+                    <a class="navbar-links" href="./contato.html">Contato</a>
+                </div>               
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <h1>Entre em contato conosco!</h1>
+        <form action="#">
+            <div class="inputs-group">
+                <label for="nome">Nome:</label>
+                <input type="text">
+
+                <label for="nome">Email:</label>
+                <input type="email">
+
+                <label for="nome">Telefone:</label>
+                <input type="number">
+            </div>
+
+            <div class="inputs-group">
+                <label for="nome">Texto:</label>
+                <div class="form-group">
+                    <textarea class="form-control" name="" id="" rows="3"></textarea>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div id="footer-menu">
+            <div id="footer-menu-social-media">
+                <h5>Siga a Unifor nas redes sociais:</h5>
+
+                <div id="social-media">
+                    <a href="https://www.facebook.com/uniforoficial/"><img class="social-media-icons" src="./assets/facebook.svg" alt="facebook"></a>
+                    <a href="https://twitter.com/uniforoficial"><img class="social-media-icons" src="./assets/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/school/university-of-fortaleza/?originalSubdomain=pt"><img class="social-media-icons" src="./assets/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://www.youtube.com/user/uniforcomunica"><img class="social-media-icons" src="./assets/youtube.svg" alt="youtube"></a>
+                    <a href="https://www.instagram.com/uniforcomunica/"><img class="social-media-icons" src="./assets/instagram.svg" alt="instagram"></a>
+                    <a href="https://open.spotify.com/show/6hjmRIaygmP15xTdQ49YZ5?si=pehByU_ZRH2grvTFYanATg&nd=1"><img class="social-media-icons" src="./assets/icone spotify.svg" alt="spotify"></a>            
+                </div>
+            </div>
+
+            <table id="table-footer">
+                <thead>
+                    <tr>
+                        <th scope="col"><h5>Fale Conosco</h5></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="contact-info-description" scope="row">Telefone Fixo: </td>
+                    <td class="contact-info-content">(85) 3477 - 3000</td>
+                  </tr>
+                  <tr>
+                    <td class="contact-info-description" scope="row">WhatsApp: </td>
+                    <td class="contact-info-content">(85) 99246 - 6625</td>
+                  </tr>
+                  <tr>
+                    <td class="contact-info-description" scope="row">Email: </td>
+                    <td class="contact-info-content">callcenter@unifor.br</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            <div id="unifor-logo-footer">
+                <img id="unifor-logo" src="./assets/unifor-logo-horizontal-negative.svg" alt="logo unifor">
+            </div>
+
+        </div>
+    </footer>
 </body>
 </html>

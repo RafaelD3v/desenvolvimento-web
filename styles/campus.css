@@ -1,0 +1,32 @@
+/* MAIN CAMPUS*/
+main {
+    margin: 2rem 5rem;
+}
+
+h1 {
+    margin: 2rem;
+
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+p {
+    text-align: justify;
+}
+
+#list li{
+    font-weight: bold;
+    color: var(--primary);
+    margin-top: 1rem;
+}
+
+#mapa-campos {
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 15%;
+}

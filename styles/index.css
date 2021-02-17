@@ -75,20 +75,6 @@ header {
     background:  var(--primary);
 }
 
-/* BODY */
-main {
-    margin: 2rem 5rem;
-}
-
-h1 {
-    margin: 2rem;
-
-    text-align: center;
-    font-size: 2.5rem;
-    color: var(--primary);
-}
-
-
 /* FOOTER */
 footer {
     background-color: var(--primary);
@@ -107,6 +93,10 @@ footer {
 
 #footer-menu-social-media {
     margin-left: 5rem;
+}
+
+thead {
+    text-align: center;
 }
 
 h5 {
@@ -145,22 +135,4 @@ h5 {
 #unifor-logo {
     width: 250px;
     height: 250px;
-}
-p {
-    text-align: justify;
-}
-
-#list li{
-    font-weight: bold;
-    color: #002969;
-}
-#mapa-campos {
-    
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15%;
 }

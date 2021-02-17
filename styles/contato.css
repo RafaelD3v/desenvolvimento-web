@@ -1,0 +1,24 @@
+/* MAIN CONTATO */
+h1 {
+    margin: 2rem;
+
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+#form {
+    
+}
+
+.inputs-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-control {
+    width: 250px;
+    height: 250px;
+}
